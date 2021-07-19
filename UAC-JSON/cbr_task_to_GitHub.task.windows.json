@@ -100,7 +100,7 @@
     "script": null,
     "startHeld": false,
     "startHeldReason": null,
-    "summary": "Christian",
+    "summary": "my Demo GitHub Task",
     "sysId": "6cd25f32f7c544ffa7f0222824b17d8d",
     "timeZonePref": "-- System Default --",
     "twDelayAmount": null,
@@ -121,7 +121,7 @@
             "value": "Christian"
         }
     ],
-    "version": 1,
+    "version": 2,
     "virtualResources": [],
     "waitForOutput": false
 }
