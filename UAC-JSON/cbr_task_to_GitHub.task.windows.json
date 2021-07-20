@@ -68,7 +68,7 @@
     "name": "cbr_task_to_GitHub",
     "notes": [
         {
-            "sysId": "d46da33941d64e34b7518a19f76a5446",
+            "sysId": "36549da1560642da9ce0a04178b5efc4",
             "text": "https://stonebranch.atlassian.net/wiki/spaces/PM/pages/398885188/Product+Road-map",
             "title": "https://stonebranch.atlassian.net/wiki/spaces/PM/pages/398885188/Product+Road-map"
         }
@@ -117,11 +117,11 @@
         {
             "description": null,
             "name": "my_variable_defined_on_task_level",
-            "sysId": "56adc6586e054f42a791491f705f2522",
+            "sysId": "f6d06329b9964f3f9c3a855b45014462",
             "value": "Christian"
         }
     ],
-    "version": 1,
+    "version": 2,
     "virtualResources": [],
     "waitForOutput": false
 }
