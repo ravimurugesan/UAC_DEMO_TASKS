@@ -1,5 +1,5 @@
 {
-    "type": "taskSap2",
+    "type": "taskSap3",
     "actions": {
         "abortActions": [],
         "emailNotifications": [],
