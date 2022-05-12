@@ -1,0 +1,31 @@
+//AKK111N1  JOB  (03220100),0,MSGCLASS=X                                
+//ANLAG     EXEC PGM=IEFBR14                                            
+//OR6DZDR   DD   DSN=PROD.AB.AKK11101,                                  
+//          DISP=(,CATLG,CATLG),                                        
+//          DCB=USR6.MO.L0000220,                                       
+//          SPACE=(CYL,(50,90),RLSE),                                   
+//          VOL=SER=ARBX40,                                             
+//          UNIT=3390                                                   
+/*                                                                      
+//AKK111N   EXEC DB2STTSO,SSID=DB2P,PROG=AKK111N1                       
+//AKK111N1  EXEC DB2BATP                                                
+//SYSOUT    DD   SYSOUT=(4,AKK111SY,ABB1),DCB=RECFM=FBA                 
+//SORTWK01  DD   UNIT=DISK,                                             
+//          SPACE=(CYL,(50,199),RLSE)                                   
+//SORTWK02  DD   UNIT=DISK,                                             
+//          SPACE=(CYL,(50,199),RLSE)                                   
+//SORTWK03  DD   UNIT=DISK,                                             
+//          SPACE=(CYL,(50,199),RLSE)                                   
+//OR6DLIS   DD   DSN=PROD.AB.AKK11102,                                  
+//          DISP=(,CATLG,DELETE),                                       
+//          DCB=USR6.MO.L0000200,                                       
+//          SPACE=(CYL,(50,90),RLSE),                                   
+//          VOL=SER=PRDVOL,                                             
+//          UNIT=3390                                                   
+//OR6DZDR   DD   DSN=PROD.AB.AKK11101,                                  
+//          UNIT=3390,                                                  
+//          DISP=SHR                                                    
+//OR6DZDS   DD   DSN=PROD.AB.AKK11101,                                  
+//          UNIT=3390,                                                  
+//          DISP=SHR                                                    
+/*                                 
