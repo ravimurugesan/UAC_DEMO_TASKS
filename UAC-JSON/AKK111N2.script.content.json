@@ -1,4 +1,4 @@
-//AKK111N1  JOB  (03220100),0,MSGCLASS=X                                
+//AKK111N2  JOB  (03220100),0,MSGCLASS=X                                
 //ANLAG     EXEC PGM=IEFBR14                                            
 //OR6DZDR   DD   DSN=PROD.AB.AKK11101,                                  
 //          DISP=(,CATLG,CATLG),                                        
