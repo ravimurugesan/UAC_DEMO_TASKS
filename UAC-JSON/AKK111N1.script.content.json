@@ -6,7 +6,8 @@
 //          SPACE=(CYL,(50,90),RLSE),                                   
 //          VOL=SER=ARBX40,                                             
 //          UNIT=3390                                                   
-/*                                                                      
+/*  
+//*   this is a test
 //AKK111N   EXEC DB2STTSO,SSID=DB2P,PROG=AKK111N1                       
 //AKK111N1  EXEC DB2BATP                                                
 //SYSOUT    DD   SYSOUT=(4,AKK111SY,ABB1),DCB=RECFM=FBA                 
